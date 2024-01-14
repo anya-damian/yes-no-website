@@ -1,0 +1,60 @@
+/* NOTE : with the help of width in the button part the size of the button is not going to change and the button will only when they are connected to with each other */
+
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    background: linear-gradient(to bottom, 
+    #05f0f0 0.5%,    
+    #03a5fc 30%,   
+    #174dfe 102%   
+  );
+    background-repeat: no-repeat;
+    width:95px;
+    height:699px;
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    height: 100%;
+   
+}
+.text{
+    /* border: 2px solid black; */
+    margin: 100px 0px 0px 200px;
+    font-size: 50px;
+    font-family: serif;
+    color: #ffffff;
+}
+
+.gif{
+    margin: 100px 0px 100px 550px;
+
+}
+
+
+button{
+    border-bottom: 5px solid  #031c6e;
+    border-radius: 10px;
+    position: absolute;
+    cursor: pointer;
+    margin: 0 550px;
+    padding: 5px 20px;
+    background-color: #0929df;
+    font-size: 30px;
+    font-family: serif;
+    width: 100px;
+}
+
+
+.button2{
+    right: 5%;
+}
+
+a{
+   text-decoration: none;
+   color: #ffffff;
+}   
